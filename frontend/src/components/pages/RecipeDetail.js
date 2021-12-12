@@ -44,7 +44,7 @@ const RecipeDetail = () => {
                     <br></br>
                     <p> { recipe.instructions}</p>
                     <p>
-                    <ReactPlayer url={recipe['video-url']} /> 
+                    <ReactPlayer url={recipe['video-url']} playing/> 
                     </p>         
                     <p> { recipe['video-url'] }</p>
                 </article>
